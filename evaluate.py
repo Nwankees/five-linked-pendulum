@@ -6,7 +6,15 @@ from pathlib import Path
 import numpy as np
 import torch
 from environment import PendulumEnvironment
-from model import PolicyNetwork, features
+from baseline_model import PolicyNetwork, features
+
+
+def load_controller(path):
+    saved = torch.load(path, map_location='cpu', weights_only=True)
+    if saved.get('format') == 'scheduled-relu-policy-v1':
+        from model import ScheduledController
+        return ScheduledController(path)
+    return NeuralController(path)
 
 
 class NeuralController:
@@ -24,7 +32,7 @@ class NeuralController:
 def evaluate(model, episodes=512, seed=91000, physics_step=0.005):
     torch.set_num_threads(1)
     environment = PendulumEnvironment(episodes, seed, physics_step)
-    controller = NeuralController(model)
+    controller = load_controller(model)
     while not environment.finished.all():
         action = controller.action(environment.states, environment.step_number)
         environment.step(action)
@@ -43,7 +51,7 @@ def evaluate(model, episodes=512, seed=91000, physics_step=0.005):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', default='models/imitation.pt')
+    parser.add_argument('--model', default='models/scheduled.pt')
     parser.add_argument('--episodes', type=int, default=512)
     parser.add_argument('--seed', type=int, default=91000)
     parser.add_argument('--physics-step', type=float, default=0.005)

@@ -3,6 +3,5 @@ CorruptNet/
 __pycache__/
 *.pyc
 .venv/
-data/*.pt
-results/
+results/*_trace.json
 .autocp

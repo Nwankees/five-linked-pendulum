@@ -12,8 +12,10 @@ EPISODE_SECONDS = 15.0
 
 class PendulumEnvironment:
     def __init__(self, count=1, seed=0, physics_step=0.005):
+        if count < 1 or physics_step <= 0:
+            raise ValueError('Cart count and physics step must be positive.')
         substeps = round(CONTROL_STEP / physics_step)
-        if physics_step <= 0 or substeps < 1 or not math.isclose(substeps * physics_step, CONTROL_STEP):
+        if substeps < 1 or not math.isclose(substeps * physics_step, CONTROL_STEP):
             raise ValueError('Physics step must divide the 0.02-second control interval.')
         self.count = count
         self.random = np.random.default_rng(seed)

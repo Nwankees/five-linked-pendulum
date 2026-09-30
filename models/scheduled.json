@@ -1,0 +1,37 @@
+{
+  "routes": [
+    {
+      "route": 0,
+      "mean_training_force_rmse": 0.01164992522511722
+    },
+    {
+      "route": 1,
+      "mean_training_force_rmse": 0.009157683170895228
+    },
+    {
+      "route": 2,
+      "mean_training_force_rmse": 0.009761196182889677
+    },
+    {
+      "route": 3,
+      "mean_training_force_rmse": 0.006584408990489678
+    },
+    {
+      "route": 4,
+      "mean_training_force_rmse": 0.008447559442249843
+    },
+    {
+      "route": 5,
+      "mean_training_force_rmse": 0.008944004378006855
+    },
+    {
+      "route": 6,
+      "mean_training_force_rmse": 0.008898055836070519
+    },
+    {
+      "route": 7,
+      "mean_training_force_rmse": 0.009801480960606717
+    }
+  ],
+  "balance_training_rmse": 0.004549010302171427
+}
