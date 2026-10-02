@@ -4,6 +4,7 @@ import argparse
 import math
 import os
 import pygame
+from pathlib import Path
 from environment import PendulumEnvironment, TRACK_LIMIT, CONTROL_STEP
 from evaluate import load_controller
 from physics import LENGTHS
@@ -54,6 +55,7 @@ def play(args):
     running = True
     last_result = ''
     frames = 0
+    recording = []
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -82,6 +84,10 @@ def play(args):
                 environment.reset()
         draw(screen, environment, action, font, paused, last_result)
         pygame.display.flip()
+        if args.gif and frames % 5 == 0:
+            from PIL import Image
+            frame = Image.frombytes('RGB', screen.get_size(), pygame.image.tobytes(screen, 'RGB'))
+            recording.append(frame.resize((770, 532)))
         frames += 1
         if args.frames and frames >= args.frames:
             if args.screenshot:
@@ -90,14 +96,18 @@ def play(args):
         if not args.headless:
             clock.tick(round(1 / CONTROL_STEP))
     pygame.quit()
+    if recording:
+        Path(args.gif).parent.mkdir(parents=True, exist_ok=True)
+        recording[0].save(args.gif, save_all=True, append_images=recording[1:], duration=100, loop=0)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', default='models/imitation.pt')
+    parser.add_argument('--model', default='models/scheduled.pt')
     parser.add_argument('--manual', action='store_true')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--headless', action='store_true')
     parser.add_argument('--frames', type=int, default=0)
     parser.add_argument('--screenshot')
+    parser.add_argument('--gif')
     play(parser.parse_args())

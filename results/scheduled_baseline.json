@@ -1,0 +1,459 @@
+{
+  "model": "models\\scheduled.pt",
+  "episodes": 64,
+  "successes": 64,
+  "seed": 91000,
+  "physics_step": 0.005,
+  "control_step": 0.02,
+  "definition": "All links within 10 degrees and 0.5 rad/s for 2 seconds; no track exit in 15 seconds.",
+  "trials": [
+    {
+      "episode": 0,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.970000000000315,
+      "maximum_cart_position": 0.9175824963020894
+    },
+    {
+      "episode": 1,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.029750281696637
+    },
+    {
+      "episode": 2,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9345019016837689
+    },
+    {
+      "episode": 3,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.980000000000317,
+      "maximum_cart_position": 1.0196454788267753
+    },
+    {
+      "episode": 4,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0042580484755284
+    },
+    {
+      "episode": 5,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0501173151940346
+    },
+    {
+      "episode": 6,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9819993143924299
+    },
+    {
+      "episode": 7,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0118855848923975
+    },
+    {
+      "episode": 8,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 0.8768919164424781
+    },
+    {
+      "episode": 9,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9867239553084597
+    },
+    {
+      "episode": 10,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.980000000000317,
+      "maximum_cart_position": 1.0104629124931834
+    },
+    {
+      "episode": 11,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.980000000000317,
+      "maximum_cart_position": 1.0595110980022502
+    },
+    {
+      "episode": 12,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.980000000000317,
+      "maximum_cart_position": 0.8643802551319614
+    },
+    {
+      "episode": 13,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9848244461220922
+    },
+    {
+      "episode": 14,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9330910226828618
+    },
+    {
+      "episode": 15,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 0.9645976154525211
+    },
+    {
+      "episode": 16,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00500000000032,
+      "maximum_cart_position": 1.0499638359354393
+    },
+    {
+      "episode": 17,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0660228423319633
+    },
+    {
+      "episode": 18,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.965000000000314,
+      "maximum_cart_position": 0.9323635134550102
+    },
+    {
+      "episode": 19,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0612183403899587
+    },
+    {
+      "episode": 20,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.995000000000319,
+      "maximum_cart_position": 0.9673524896847481
+    },
+    {
+      "episode": 21,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 0.9836754319925276
+    },
+    {
+      "episode": 22,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.965000000000314,
+      "maximum_cart_position": 0.9548725887801454
+    },
+    {
+      "episode": 23,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00500000000032,
+      "maximum_cart_position": 1.0990372055956352
+    },
+    {
+      "episode": 24,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0194242149298283
+    },
+    {
+      "episode": 25,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.1610588774058093
+    },
+    {
+      "episode": 26,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 0.9689535840136598
+    },
+    {
+      "episode": 27,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0152630662015198
+    },
+    {
+      "episode": 28,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.1507691085487406
+    },
+    {
+      "episode": 29,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0205127938656617
+    },
+    {
+      "episode": 30,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0136160560006966
+    },
+    {
+      "episode": 31,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9709548113628909
+    },
+    {
+      "episode": 32,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.197028430091324
+    },
+    {
+      "episode": 33,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0553436919635872
+    },
+    {
+      "episode": 34,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0139700512556524
+    },
+    {
+      "episode": 35,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0172716470444136
+    },
+    {
+      "episode": 36,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.980000000000317,
+      "maximum_cart_position": 1.0046596831521768
+    },
+    {
+      "episode": 37,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00500000000032,
+      "maximum_cart_position": 1.0330959133377378
+    },
+    {
+      "episode": 38,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 0.977197946904017
+    },
+    {
+      "episode": 39,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 0.9932280942456441
+    },
+    {
+      "episode": 40,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.1191251176382213
+    },
+    {
+      "episode": 41,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.965000000000314,
+      "maximum_cart_position": 1.0433000340029142
+    },
+    {
+      "episode": 42,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.1384193524384225
+    },
+    {
+      "episode": 43,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.980000000000317,
+      "maximum_cart_position": 0.9613762297105226
+    },
+    {
+      "episode": 44,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.965000000000314,
+      "maximum_cart_position": 0.9397745812020366
+    },
+    {
+      "episode": 45,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.980000000000317,
+      "maximum_cart_position": 1.030839095330366
+    },
+    {
+      "episode": 46,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.970000000000315,
+      "maximum_cart_position": 0.9523856497910834
+    },
+    {
+      "episode": 47,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0149637148377044
+    },
+    {
+      "episode": 48,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9979227535264874
+    },
+    {
+      "episode": 49,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0541661765288939
+    },
+    {
+      "episode": 50,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.1669804433282807
+    },
+    {
+      "episode": 51,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.995000000000319,
+      "maximum_cart_position": 0.9639912821668634
+    },
+    {
+      "episode": 52,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 1.0777592300215362
+    },
+    {
+      "episode": 53,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00500000000032,
+      "maximum_cart_position": 1.0326711284625267
+    },
+    {
+      "episode": 54,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9797372101770931
+    },
+    {
+      "episode": 55,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 0.9672920648163069
+    },
+    {
+      "episode": 56,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.084320866247053
+    },
+    {
+      "episode": 57,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9102103622068598
+    },
+    {
+      "episode": 58,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 1.0062591703989006
+    },
+    {
+      "episode": 59,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 1.0470161608442958
+    },
+    {
+      "episode": 60,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9433724083702681
+    },
+    {
+      "episode": 61,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.980000000000317,
+      "maximum_cart_position": 1.019344205625904
+    },
+    {
+      "episode": 62,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 10.985000000000317,
+      "maximum_cart_position": 0.9421775963682885
+    },
+    {
+      "episode": 63,
+      "success": true,
+      "failed": false,
+      "best_hold_seconds": 11.00000000000032,
+      "maximum_cart_position": 0.9783205543881943
+    }
+  ]
+}

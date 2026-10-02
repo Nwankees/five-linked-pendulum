@@ -1,0 +1,58 @@
+[
+  {
+    "update": 1,
+    "transitions": 3240,
+    "completed_episodes": 21,
+    "successes": 0,
+    "mean_rollout_reward": -0.21410617232322693
+  },
+  {
+    "update": 2,
+    "transitions": 7237,
+    "completed_episodes": 27,
+    "successes": 0,
+    "mean_rollout_reward": -0.025625502690672874
+  },
+  {
+    "update": 3,
+    "transitions": 10677,
+    "completed_episodes": 45,
+    "successes": 0,
+    "mean_rollout_reward": -0.1644574999809265
+  },
+  {
+    "update": 4,
+    "transitions": 13892,
+    "completed_episodes": 63,
+    "successes": 0,
+    "mean_rollout_reward": -0.21938899159431458
+  },
+  {
+    "update": 5,
+    "transitions": 17898,
+    "completed_episodes": 66,
+    "successes": 0,
+    "mean_rollout_reward": -0.02265256643295288
+  },
+  {
+    "update": 6,
+    "transitions": 21877,
+    "completed_episodes": 71,
+    "successes": 0,
+    "mean_rollout_reward": -0.029766548424959183
+  },
+  {
+    "update": 7,
+    "transitions": 25101,
+    "completed_episodes": 91,
+    "successes": 0,
+    "mean_rollout_reward": -0.21775898337364197
+  },
+  {
+    "update": 8,
+    "transitions": 28548,
+    "completed_episodes": 109,
+    "successes": 0,
+    "mean_rollout_reward": -0.16280972957611084
+  }
+]

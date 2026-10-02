@@ -1,0 +1,235 @@
+{
+  "model": "models/imitation.pt",
+  "episodes": 32,
+  "successes": 0,
+  "seed": 91000,
+  "physics_step": 0.005,
+  "control_step": 0.02,
+  "definition": "All links within 10 degrees and 0.5 rad/s for 2 seconds; no track exit in 15 seconds.",
+  "trials": [
+    {
+      "episode": 0,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4149308613766727
+    },
+    {
+      "episode": 1,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4253662524798094
+    },
+    {
+      "episode": 2,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.401082322230254
+    },
+    {
+      "episode": 3,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4331991534933444
+    },
+    {
+      "episode": 4,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4043055585417883
+    },
+    {
+      "episode": 5,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.410757768183522
+    },
+    {
+      "episode": 6,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.419202224546855
+    },
+    {
+      "episode": 7,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.432102681923344
+    },
+    {
+      "episode": 8,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4001267009199734
+    },
+    {
+      "episode": 9,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4298032650553485
+    },
+    {
+      "episode": 10,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.404122244567809
+    },
+    {
+      "episode": 11,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.403300669411421
+    },
+    {
+      "episode": 12,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4230625279698064
+    },
+    {
+      "episode": 13,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4045063445970087
+    },
+    {
+      "episode": 14,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.408778792488516
+    },
+    {
+      "episode": 15,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.41385126817851
+    },
+    {
+      "episode": 16,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4228878715329123
+    },
+    {
+      "episode": 17,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4080459946681785
+    },
+    {
+      "episode": 18,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4210680016135275
+    },
+    {
+      "episode": 19,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4023772837323345
+    },
+    {
+      "episode": 20,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4325246247733268
+    },
+    {
+      "episode": 21,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4122278043404766
+    },
+    {
+      "episode": 22,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4151625498985383
+    },
+    {
+      "episode": 23,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4376017552599634
+    },
+    {
+      "episode": 24,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4090693985568596
+    },
+    {
+      "episode": 25,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4107162763162515
+    },
+    {
+      "episode": 26,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4050796980383367
+    },
+    {
+      "episode": 27,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4044346206487597
+    },
+    {
+      "episode": 28,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.422118748339043
+    },
+    {
+      "episode": 29,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4145309969346656
+    },
+    {
+      "episode": 30,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.4079958807643957
+    },
+    {
+      "episode": 31,
+      "success": false,
+      "failed": true,
+      "best_hold_seconds": 0.0,
+      "maximum_cart_position": 2.404953944990964
+    }
+  ]
+}
