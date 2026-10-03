@@ -5,3 +5,5 @@ __pycache__/
 .venv/
 results/*_trace.json
 .autocp
+results/*.png
+results/default_smoke.json
