@@ -2,7 +2,7 @@
 
 I built a physics simulation of a cart with five connected pendulums and trained a controller to swing them up and keep them balanced. The final approach uses imitation learning from optimized expert trajectories, with behavioral cloning and DAgger.
 
-![Five-link pendulum balancing](assets/demo.gif)
+![Five-link pendulum balancing](assets/model_demo.gif)
 
 The included controller succeeded in **512/512 evaluation runs**. Success means all five poles stay within 10° of upright and below 0.5 rad/s for 2 seconds without the cart leaving the track.
 
