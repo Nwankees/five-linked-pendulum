@@ -1,0 +1,31 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+.vendor/
+
+# Editor and operating-system state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.autocp
+
+# Unrelated local work
+Kattis/
+
+# Local training datasets and transient checkpoints
+runs/**/dataset.pt
+runs/**/balance_dataset.pt
+runs/**/latest.pt
+runs/**/final.pt
+
+# Historical work is kept locally, not published with the current project
+archive/
+
+# New generated outputs; the verified examples already in logs/ are tracked
+logs/*.npz
+logs/*_trace.json
+experts/candidate_*
+experts/reference_*
+

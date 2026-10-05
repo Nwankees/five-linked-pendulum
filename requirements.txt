@@ -1,0 +1,6 @@
+torch
+numpy
+scipy
+pygame-ce
+matplotlib
+casadi==3.8.0

@@ -1,0 +1,19 @@
+test_canonical_imports (__main__.ProjectTests.test_canonical_imports) ... ok
+test_checkpoint_roundtrip_and_frozen_fallback (__main__.ProjectTests.test_checkpoint_roundtrip_and_frozen_fallback) ... ok
+test_energy_power_identity (__main__.ProjectTests.test_energy_power_identity) ... ok
+test_evaluation_preserves_rng (__main__.ProjectTests.test_evaluation_preserves_rng) ... ok
+test_gae_timeout (__main__.ProjectTests.test_gae_timeout) ... ok
+test_integration_convergence (__main__.ProjectTests.test_integration_convergence) ... ok
+test_latent_logprob_and_independent_critic (__main__.ProjectTests.test_latent_logprob_and_independent_critic) ... ok
+test_local_capture_and_hysteresis (__main__.ProjectTests.test_local_capture_and_hysteresis) ... ok
+test_reset_and_kinematics (__main__.ProjectTests.test_reset_and_kinematics) ... ok
+test_single_batch_identical (__main__.ProjectTests.test_single_batch_identical) ... ok
+test_substep_hold_not_endpoint_only (__main__.ProjectTests.test_substep_hold_not_endpoint_only) ... ok
+test_success_continuity_and_failure (__main__.ProjectTests.test_success_continuity_and_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 26.761s
+
+OK
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.12.14)
+LOCAL_CHECK {"episodes": 128, "success_rate": 1.0, "max_force": 25.71581281162628, "open_loop_rates": [-16.01421949755017, -12.868661034030836, -9.517654393581878, -6.182445408860655, -3.079472798996406, -0.039996858107151444, 0.0, 3.061006985285206, 6.1058067920962955, 9.070951596888035, 11.988550946088614, 15.050076558537178], "pbh_min_singular": 0.04181541698842072, "closed_loop_radius": 0.987913985151111, "max_gain": 109602.59901195859, "rho": 0.6068818330554467, "p_condition": 199400068.31453136}

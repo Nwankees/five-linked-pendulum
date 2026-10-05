@@ -1,0 +1,10 @@
+test_angle_wrap_and_checkpoint (__main__.ImitationTests.test_angle_wrap_and_checkpoint) ... ok
+test_balance_is_learned_and_no_lqr_action_called (__main__.ImitationTests.test_balance_is_learned_and_no_lqr_action_called) ... ok
+test_failed_replay_not_demonstration (__main__.ImitationTests.test_failed_replay_not_demonstration) ... ok
+test_learns_feedback_from_labels (__main__.ImitationTests.test_learns_feedback_from_labels) ... ok
+test_symbolic_matches_plant (__main__.ImitationTests.test_symbolic_matches_plant) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.190s
+
+OK
